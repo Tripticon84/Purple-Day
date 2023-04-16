@@ -1,8 +1,71 @@
-.title {
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500;700;800&family=Ubuntu:wght@300;500;700&display=swap');
+
+
+body {
+    font-family: 'Ubuntu', 'Roboto', 'Arial';
+    padding: 3vh;
+    padding-top: 0;
+    font-size: 1.3em;
+    background-color:
+    }
+
+.purple {
     color: blueviolet;
+    font-weight: bold; }
+
+/* Sections */
+
+.all {
+    display: flex;
+    flex-direction: row;
+
+
+    
+}
+
+.title {
+    color: blueviolet; 
     font-size: 5em;
-    position: absolute;
     text-align: center;
     text-decoration: underline;
+    margin: 2vh;
+    margin-bottom: 4vh;
+}
+
+.section {
+    border: solid;
+    border-radius: 16px;
+    padding: 0.5em;
+    margin: 2vh;
+    height: fit-content;
     
+}
+
+#treatments img {
+    width: 30vh;
+}
+
+#treatments {
+    
+}
+
+
+
+#video {
+    width: fit-content;
+}
+
+#cassidy {
+    width: 35vh;
+}
+
+/* Congrès */
+#congres {
+    width: 80vh;
+    border-radius: 1vh;
+}
+
+#legend {
+    font-style: italic;
+    color: rgb(50, 50, 50);
 }
