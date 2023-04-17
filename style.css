@@ -6,7 +6,7 @@ body {
     padding: 3vh;
     padding-top: 0;
     font-size: 1.3em;
-    background-color:
+    
     }
 
 .purple {
@@ -45,15 +45,15 @@ body {
     width: 30vh;
 }
 
-#treatments {
-    
+#article {
+    width: min-content;
+}
+
+#article img {
+    width: 80vh;
 }
 
 
-
-#video {
-    width: fit-content;
-}
 
 #cassidy {
     width: 35vh;
